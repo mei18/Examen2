@@ -1,0 +1,29 @@
+@import 'partials/variables';
+
+header {
+  background-color: $darkColor;
+
+  img {
+    position: relative;
+    margin-top: 142px;
+    margin-bottom: 157px;
+    left: 43%;
+  }
+
+  h1,
+  p {
+    color: $white;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    font-size: 80px;
+  }
+
+  .last-p {
+    margin-bottom: 185px;
+  }
+}
