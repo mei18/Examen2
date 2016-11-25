@@ -1,29 +1,75 @@
 @import 'partials/variables';
-
+//header
 header {
-  background-color: $darkColor;
+    background-color: $darkColor;
 
-  img {
-    position: relative;
-    margin-top: 142px;
-    margin-bottom: 157px;
-    left: 43%;
-  }
+    img {
+        position: relative;
+        margin-top: 142px;
+        margin-bottom: 157px;
+        left: 43%;
+    }
 
-  h1,
-  p {
-    color: $white;
-    text-align: center;
-    font-size: 18px;
-  }
+    h1,
+    p {
+        color: $white;
+        text-align: center;
+        font-size: 18px;
+    }
 
-  h1 {
-    text-transform: uppercase;
-    margin-bottom: 44px;
-    font-size: 80px;
-  }
+    h1 {
+        text-transform: uppercase;
+        margin-bottom: 44px;
+        font-size: 80px;
+    }
 
-  .last-p {
-    margin-bottom: 185px;
-  }
+    .header-text {
+        margin: auto;
+        max-width: 420px;
+
+        p {
+          margin-bottom: 185px;
+        }
+    }
+}
+//What I do
+.whatIDo {
+    .presentation {
+        margin: auto;
+        margin-top: 70px;
+        max-width: 880px;
+
+        p {
+            text-align: center;
+            margin-top: 44px;
+            font-size: 30px;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+        margin-top: 80px;
+        margin-bottom: 72px;
+        font-size: 80px;
+        text-align: center;
+    }
+    .WID-ThirdR {
+      margin: auto;
+      margin-left: 60px;
+      margin-bottom: 101px;
+
+      h3 {
+        margin-left: 30px;
+      }
+
+      p {
+        margin: auto;
+        font-size: 18px;
+        color: $grey;
+      }
+
+      p,h3 :nth-child(2) {
+        margin-left: 30px;
+        margin-right: 40px;
+      }
+    }
 }
