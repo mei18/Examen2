@@ -132,7 +132,7 @@ header {
 }
 
 //infinitive
-.infinitive {
+.infinite {
   img {
     margin-top: 214px;
     margin-bottom: 29px;
@@ -162,5 +162,34 @@ header {
       color: $white;
     }
   }
+}
 
+//footer
+footer {
+  background-color: $darkColor;
+  .row {
+    margin: auto;
+    .social-networks {
+      margin-top: 86px;
+      margin-bottom: 86px;
+      margin-right: 40px;
+      text-align: center;
+      font-size: 43px;
+      li {
+        display: inline-flex;
+        margin-left: 20px;
+      }
+      a{
+        color: $white;
+      }
+    }
+
+    p {
+      color: $grey;
+      text-align: center;
+    }
+    p:nth-child(2) {
+      margin-bottom: 86px;
+    }
+  }
 }
