@@ -1,5 +1,6 @@
-@import 'partials/variables'; //header
-
+@import 'partials/variables';
+@import 'partials/functions';
+//header
 header {
     background-color: $darkColor;
 
@@ -74,7 +75,6 @@ header {
         }
     }
 }
-
 //My Work
 .MyWork {
     background-color: $darkColor;
@@ -89,107 +89,112 @@ header {
     }
 
     .boxes {
-      margin: auto;
+        margin: auto;
 
-      h3 {
-        color: $white;
-        text-align: center;
-      }
-      p {
-        text-align: center;
-        color: $purple;
-      }
+        h3 {
+            color: $white;
+            text-align: center;
+        }
 
-      .w-first{
-          margin-top: 85px;
-          margin-left: 70px;
-      }
+        p {
+            text-align: center;
+            color: $purple;
+        }
 
-      .w-second{
-          margin-top: 85px;
-          margin-left: 70px;
-      }
+        .w-first {
+            margin-top: 85px;
+            margin-left: 70px;
+        }
 
-      .box {
-          background-color: $lightPurple;
-          margin: auto;
-          width: 298px;
-          height: 298px;
-      }
+        .w-second {
+            margin-top: 85px;
+            margin-left: 70px;
+        }
+
+        .box {
+            background-color: $lightPurple;
+            margin: auto;
+            width: 298px;
+            height: 298px;
+        }
     }
 
     .SeeMyWork {
-      text-align: center;
-      input {
-        margin-top: 72px;
-        margin-bottom: 129px;
-        color: $white;
-        background-color: $lightPurple;
-        border-color: $lightPurple;
-      }
+        text-align: center;
 
+        input {
+            margin-top: 72px;
+            margin-bottom: 129px;
+            color: $white;
+            background-color: $lightPurple;
+            border-color: $lightPurple;
+        }
     }
 }
-
 //infinitive
 .infinite {
-  img {
-    margin-top: 214px;
-    margin-bottom: 29px;
-    position: relative;
-    left: 45%;
-  }
-
-  .text {
-    margin: auto;
-    max-width: 470px;;
-    p {
-      text-align: center;
-      font-size: 18px;
-      margin-bottom: 43px;
+    img {
+        margin-top: 214px;
+        margin-bottom: 29px;
+        position: relative;
+        left: 45%;
     }
-  }
 
-  form {
-    background-color: black;
-    max-width: 700px;
-    margin: auto;
-    padding: 20px 5px 5px 20px;
-    margin-bottom: 242px;
+    .text {
+        margin: auto;
+        max-width: 470px;
 
-    button {
-      background-color: $lightPurple;
-      color: $white;
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 43px;
+        }
     }
-  }
+
+    form {
+        background-color: black;
+        max-width: 700px;
+        margin: auto;
+        padding: 20px 5px 5px 20px;
+        margin-bottom: 242px;
+
+        button {
+            background-color: $lightPurple;
+            color: $white;
+        }
+    }
 }
-
 //footer
 footer {
-  background-color: $darkColor;
-  .row {
-    margin: auto;
-    .social-networks {
-      margin-top: 86px;
-      margin-bottom: 86px;
-      margin-right: 40px;
-      text-align: center;
-      font-size: 43px;
-      li {
-        display: inline-flex;
-        margin-left: 20px;
-      }
-      a{
-        color: $white;
-      }
-    }
+    background-color: $darkColor;
 
-    p {
-      color: $grey;
-      text-align: center;
+    .row {
+        margin: auto;
+
+        .social-networks {
+            margin-top: 86px;
+            margin-bottom: 86px;
+            margin-right: 40px;
+            text-align: center;
+            font-size: 43px;
+
+            li {
+                display: inline-flex;
+                margin-left: 20px;
+            }
+
+            a {
+                color: $white;
+            }
+        }
+
+        p {
+            color: $grey;
+            text-align: center;
+        }
+
+        p:nth-child(2) {
+            margin-bottom: 86px;
+        }
     }
-    p:nth-child(2) {
-      margin-bottom: 86px;
-    }
-  }
 }

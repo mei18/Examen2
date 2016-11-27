@@ -1,0 +1,10 @@
+// Strip unit
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// Em calculator
+@function em($target, $context){
+
+    @return ( strip-unit($target) / strip-unit($context) ) + em;
+}
